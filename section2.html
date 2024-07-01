@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Page Title</title>
+
+    <!-- Including the main.css file for styling -->
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- Including the Font Awesome CSS library for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <!-- Navigation bar -->
+    <div class="topnav" id="myTopnav">
+        <!-- Links to different sections -->
+        <a href="index.html">Abstract</a>
+        <div class="dropdown">
+            <button class="dropbtn">Introduce to Geoinfomatics
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="section1.html">Geographic Information Systems</a>
+                <a href="section3.html">Global Positioning Systems</a>
+                <a href="section4.html">Remote Sensing</a>
+            </div>
+        </div>
+
+        <!-- Active link pointing to the section2.html page -->
+        <a class="active" href="section2.html">Sample Project</a>
+
+        <a href="see_also.html">See Also</a>
+        <a href="references.html">References</a>
+
+        <!-- Toggle dark mode -->
+        <a href="javascript:void(0);" id="darkModeToggle">
+            <i class="fa fa-adjust"></i>
+        </a>        
+
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links on smaller screens -->
+        <a href="javascript:void(0);" class="icon">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+    <!-- Page content -->
+    <div class="content">
+        <!-- Section 2 content -->
+        This is a project in China, called Qinghai Livestock Network. The animal networking product is a supplementary design based
+         on the monitoring means required by the loan live animal risk control platform of Qinghai Unicom and Agricultural Bank of China. 
+         The core demand side is the live animal loan project Department of Agricultural Bank of China, 
+         and the core demand is to regularly supervise the live animals pledged by loans to reduce the loss of assets and loan risks. 
+    </div>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+    <!-- Including the main.js file for JavaScript functionality -->
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
